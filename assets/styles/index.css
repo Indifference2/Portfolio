@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&family=Suez+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.container-img-p{
+    display: flex;
+    align-items: center;
+}
+
+.container-img-p > p{
+    width: 15em;
+}
+
+.round-img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 90%;
+    background-image: url("../images/Me.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 20px 20px 20px 0;
+    shape-outside: circle();
+    filter: drop-shadow(-10px -5px 4px #0000003c);
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+}
+
+h2{
+    color: rgba(0, 0, 0, 0.911);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+
+.description{
+    color: rgba(107, 107, 107, 0.911);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
